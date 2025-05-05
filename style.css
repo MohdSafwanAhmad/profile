@@ -10,12 +10,12 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  color: #575F7D;
+  color: #340202;
   font-size: 32px;
   font-weight: 900;
 }
 h2 {
-  color: #7ECE90;
+  color: #920505;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -36,6 +36,15 @@ a:hover {
   max-width: 350px;       /* never exceed container width :contentReference[oaicite:0]{index=0} */
   height: auto;          /* preserve original aspect ratio :contentReference[oaicite:1]{index=1} */
   margin: 0 auto 1.5rem;
+}
+
+.btn-blue {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;   /* prevents overly‑wide buttons on mid‑size phones */
+  margin: 1rem auto;  /* center */
+  box-sizing: border-box;
 }
 
 /* Custom design with class (99% of your design) */
@@ -101,16 +110,17 @@ a:hover {
 }
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left:5px;
 }
 
 .list-inline li {
   display: inline;
   padding: 10px;
+  margin: 10px;
 }
 .list-inline i {
   font-size: 50px;
-  color: rgb(230, 230, 230);
+  color: #920505;;
 }
 .list-inline i:hover {
   color: black;
